@@ -5,5 +5,7 @@ class Teacher < User
     def teach 
     @knowledge.split(",")
     @knowledge.each do |value|
+      puts value
+    end
   end
 end
