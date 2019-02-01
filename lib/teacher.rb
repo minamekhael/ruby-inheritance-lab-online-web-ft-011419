@@ -4,5 +4,6 @@ class Teacher < User
 
     def teach 
     @knowledge.split(",")
+    @knowledge
   end
 end
