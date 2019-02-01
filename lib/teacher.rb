@@ -4,6 +4,6 @@ class Teacher < User
 
     def teach 
     @knowledge.split(",")
-    @knowledge
+    @knowledge.each do |value|
   end
 end
